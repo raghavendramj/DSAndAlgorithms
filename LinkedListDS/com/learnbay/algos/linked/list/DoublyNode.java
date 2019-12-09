@@ -3,12 +3,12 @@ package com.learnbay.algos.linked.list;
 public class DoublyNode {
 
 	int data;
-	DoublyNode right;
-	DoublyNode left;
+	DoublyNode next;
+	DoublyNode prev;
 
 	public DoublyNode(int data) {
 		this.data = data;
-		this.right = null;
-		this.left = null;
+		this.next = null;
+		this.prev = null;
 	}
 }
